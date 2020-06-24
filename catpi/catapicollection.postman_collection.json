@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "90dd5798-c07c-419b-8bff-751a44e5ce34",
+		"name": "catapicollection",
+		"description": "Autor: Rodrigo Lemmo\r\nProjeto: Case API https://thecatapi.com/\r\nDescrição: Contém todos exemplos de requisição para API catapi\r\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LISTAR TODAS RAÇAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/listarracas/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"listarracas",
+						""
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "LISTAR INFORMAÇÃO POR RAÇA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/listarinformacaoraca/abys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"listarinformacaoraca",
+						"abys"
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "LISTAR INFORMAÇÃO POR TEMPERAMENTO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/listarinformacaotemperamento/Independent/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"listarinformacaotemperamento",
+						"Independent",
+						""
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "LISTAR INFORMAÇÃO POR ORIGEM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/listarinformacaoorigem/Egypt/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"listarinformacaoorigem",
+						"Egypt",
+						""
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "LISTAR TODAS CATEGORIAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/listarcategoria/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"listarcategoria",
+						""
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "GRAVAR IMAGEM PARA TODAS AS RAÇAS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/gravarimagemtodasracas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"gravarimagemtodasracas",
+						"1"
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "GRAVAR IMAGEM PARA POR CATEGORIA CHAPEU",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/gravarimagemcategoria/1/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"gravarimagemcategoria",
+						"1",
+						"3"
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		},
+		{
+			"name": "GRAVAR IMAGEM PARA POR CATEGORIA OCULOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/servicos/gravarimagemcategoria/4/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"servicos",
+						"gravarimagemcategoria",
+						"4",
+						"1"
+					]
+				},
+				"description": "Serviço responsavel por listar informação de uma unica raça"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "catapirest",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "catapirest",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "8f4295f4-422d-45c0-86d2-dad02ab13138",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "2cc977c2-b56f-4826-b416-a4b4a5d2820d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "cd31cfb6-a50d-4aab-b9da-32472a90af9d",
+			"key": "path",
+			"value": "localhost\n"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
